@@ -102,20 +102,20 @@ public class temp {
     }
 
     public static boolean isPrime(long n) {
-        int count=0;
+        int count = 0;
         for (int i = 1; i <= n; i++) {
-            if(n%i==0) count++;
+            if (n % i == 0) count++;
         }
         return count == 2;
     }
 
     public static void perfectNumber(int n) {
-        long mercenePrime =0;
-        long count =0 , i =2;
-        while (count<=n) {
+        long mercenePrime = 0;
+        long count = 0, i = 2;
+        while (count <= n) {
             i++;
             mercenePrime = (pow(2, i) - 1);
-            if(isPrime(mercenePrime)) {
+            if (isPrime(mercenePrime)) {
                 System.out.println(pow(2, i - 1) * mercenePrime);
                 count++;
             }
@@ -131,7 +131,6 @@ public class temp {
         int[] arr = {5, 7, 7, 8, 8, 10};
 //        System.out.println(Arrays.toString(searchRange(arr, 8)));
         perfectNumber(10);
-
 
 
     }
