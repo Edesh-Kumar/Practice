@@ -31,7 +31,6 @@ public class VelocitySoft {
                 pos++;
                 for (int i : arr) {
                     if (i == k) count++;
-
                 }
                 if (count == 1) {
                     System.out.print(k + " ");
@@ -123,18 +122,18 @@ public class VelocitySoft {
         int[] arr1 = {1,2,3,4,1,2,3,1,2,1};
         int[] arr4 = {72, 37, 276, 1, 0, 132, 13, 13, 18, 0, 0, 1, 3, 8, 0};
 
-//        question1(arr1);
+        question1(arr1);
 //        Question2(5);
 
 
 //        for (int i : Question4Part1(arr4)) {
 //            System.out.print(i + " ");
 //        }
-        System.out.println();
-        for (int i : Question4Part2(arr4)) {
-            System.out.print(i+" ");
-
-        }
+//        System.out.println();
+//        for (int i : Question4Part2(arr4)) {
+//            System.out.print(i+" ");
+//
+//        }
 //        Question4Part1(arr4);
 
 
