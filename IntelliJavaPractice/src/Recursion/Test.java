@@ -1,5 +1,7 @@
 package Recursion;
 
+import companies.VelocitySoft;
+
 public class Test {
     public static int fibonacci(int n) {
 
@@ -15,7 +17,7 @@ public class Test {
             boolean swapped = false;
             for (int j = 0; j < arr.length - 1; j++) {
                 if (arr[j + 1] < arr[j]) {
-                    velocitySoft.Test.swap(arr, j + 1, j);
+                    VelocitySoft.swap(arr, j + 1, j);
                     swapped = true;
                 }
             }
@@ -33,7 +35,7 @@ public class Test {
         boolean swapped = false;
         for (int j = 0; j < arr.length - 1; j++) {
             if (arr[j + 1] < arr[j]) {
-                velocitySoft.Test.swap(arr, j + 1, j);
+                VelocitySoft.swap(arr, j + 1, j);
                 swapped = true;
             }
         }
