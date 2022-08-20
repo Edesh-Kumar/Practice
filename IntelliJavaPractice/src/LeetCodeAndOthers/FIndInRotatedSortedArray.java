@@ -34,7 +34,7 @@ public class FIndInRotatedSortedArray {
     }
 
     public static void main(String[] args) {
-        int[] arr = {1,4,5,7,9,11,12,23};
+        int[] arr = {1,4,5,7,9  ,11,12,23};
         int[] arr1 = {1,3};
         System.out.println(search(arr1, 0));
     }
