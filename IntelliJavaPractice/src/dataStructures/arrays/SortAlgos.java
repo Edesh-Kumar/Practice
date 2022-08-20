@@ -27,11 +27,10 @@ public class SortAlgos {
         for (int i = 1; i < arr.length; i++) {
             //storing the ith element in temp, so we don't lose the value.
             temp = arr[i];
-            //traversing from i-1 to start of array and comparing temp with every element until a smaller element than temp and found.
+            //traversing from i-1 to start of array and comparing temp with every element until a smaller element than temp is found.
             for (j = i - 1; j >= 0 && temp < arr[j]; j--) arr[j + 1] = arr[j];
             //now we have found that element's actual position. we can now place it at its sorted position.
             arr[j + 1] = temp;
-
         }
         return arr;
     }
