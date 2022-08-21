@@ -83,13 +83,14 @@ public class NumberSystem {
 
     public static void main(String[] args) {
 //
-        System.out.println(decimal2Binary(13));
-        System.out.println(binary2Decimal("110110100110101000101101110100100"));
-        System.out.println(binary2Decimal(101011010100L));
-        System.out.println(decimal2AnyBase(385, 8));
-        System.out.println(anyBAse2Decimal("601", 8));
-        System.out.println(anyBaseAddition("123123", "1231312", 10));
-        System.out.println(anyBaseSubtraction("100", "50", 10));
+//        System.out.println(decimal2Binary(10));
+//        System.out.println(binary2Decimal("110110100110101000101101110100100"));
+//        System.out.println(binary2Decimal(101011010100L));
+//        System.out.println(decimal2AnyBase(385, 8));
+//        System.out.println(anyBAse2Decimal("601", 8));
+//        System.out.println(anyBaseAddition("123123", "1231312", 10));
+//        System.out.println(anyBaseSubtraction("100", "50", 10));
+
 
 
     }
