@@ -117,9 +117,11 @@ public class VelocitySoft {
 
     }
 
+
+
     public static void main(String[] args) {
         //Question1
-        int[] arr1 = {1,2,3,4,1,2,3,1,2,1};
+        int[] arr1 = {1, 2, 3, 4, 1, 2, 3, 1, 2, 1};
         int[] arr4 = {72, 37, 276, 1, 0, 132, 13, 13, 18, 0, 0, 1, 3, 8, 0};
 
         question1(arr1);

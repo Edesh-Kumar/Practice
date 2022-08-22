@@ -49,8 +49,21 @@ public class BravuraSolutions {
         return i;
     }
 
+    public static String reverseStringWOUsingSpace(char[] ch) {
+        int start = 0;
+        int end = ch.length - 1;
+        while (start < end) {
+            ch[start] ^= ch[end];
+            ch[end] ^= ch[start];
+            ch[start] ^= ch[end];
+            start++;
+            end--;
+        }
+        return String.valueOf(ch);
+    }
+
     public static void quickSort(int[] arr, int low, int high) {
-        if (low<high) {
+        if (low < high) {
             int pid = partition(arr, low, high);
             quickSort(arr, low, pid - 1);
             quickSort(arr, pid + 1, high);
@@ -58,11 +71,13 @@ public class BravuraSolutions {
     }
 
     public static void main(String[] args) {
-        int[] arr = {10, 40, 20, 14, 17, 6, 5, 11};
-        quickSort(arr, 0,arr.length-1);
-        for (int i : arr) {
-            System.out.print(i+" ");
-        }
+//        int[] arr = {10, 40, 20, 14, 17, 6, 5, 11};
+//        quickSort(arr, 0, arr.length - 1);
+//        for (int i : arr) {
+//            System.out.print(i + " ");
+//        }
+        String str = "HelloWorlH";
+        System.out.println(reverseStringWOUsingSpace(str.toCharArray()));
 
     }
 }
